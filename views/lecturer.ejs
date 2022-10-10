@@ -1,0 +1,37 @@
+
+<%- include('./partials/stulecheader.ejs') %>
+<main >
+    <div class="ui segment">
+
+
+
+        <!--Render Single variable-->
+
+
+        <h1 class="text-center text-3xl text-red-500" > <%= subheading %> </h1>
+
+
+        <!--Render Multiple variables-->
+        <ul class="mt-10 mb-8">
+            <% characters.forEach(function(character) {%>
+                <li class="ui segment">
+                    <strong>
+                        <%= character.course %>
+                    </strong>
+                    - <%= character.title %>
+                </li>
+            <% }); %>
+        </ul>
+
+    </div>
+</main>
+
+
+
+<footer>
+    <%- include('./partials/footer.ejs') %>
+
+</footer>
+
+</body>
+</html>
