@@ -1,7 +1,7 @@
 # Learning Management System
 <h3>
 A simple Learning management system with Admin, lecturer and student modules.
- The application is builtwith Javascript, express, ejs template , HTML and CSS 
+ The application is built with Javascript, express, ejs template , HTML and CSS 
 </h3>
 
 ### 🤝 Connect with me on:
